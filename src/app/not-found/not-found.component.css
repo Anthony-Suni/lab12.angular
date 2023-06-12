@@ -1,0 +1,18 @@
+.error-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.error-link {
+  font-size: 16px;
+  color: blue;
+  text-decoration: underline;
+}

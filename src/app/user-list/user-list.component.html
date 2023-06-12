@@ -1,0 +1,6 @@
+<ul>
+  <app-user-details [selectedUser]="selectedUser"></app-user-details>
+  <li *ngFor="let user of userList">
+    <button (click)="showUserDetails(user.id)" class="user-button">{{ user.name }}</button>
+  </li>
+</ul>

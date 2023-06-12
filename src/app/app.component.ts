@@ -1,3 +1,5 @@
+// app.component.ts
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'lab12.1';
+  selectedPost: any;
+
+  selectPost(post: any) {
+    this.selectedPost = post;
+  }
 }

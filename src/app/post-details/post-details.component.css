@@ -1,0 +1,19 @@
+.post-details-container {
+  text-align: center;
+}
+
+.post-details-wrapper {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.post-details-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.post-details-id {
+  font-size: 18px;
+  color: #666;
+}
